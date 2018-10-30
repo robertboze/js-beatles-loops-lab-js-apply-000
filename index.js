@@ -1,21 +1,11 @@
 // add solution here
-function theBeatlesPlay(arr1,arr2){
 
-var arr3 = [];
 
-  for(i=0;i<=arr1.length();i++){
-
-  var musician = arr[i];
-
-    for(j=i;j<=arr2.length();j++){
-
-      var instrument = arr2[j];
-
-    }
-var sentence = musician + "plays" + instrument;
-
-    arr3.push(sentence);
+vfunction theBeatlesPlay(musicians, instruments) {
+  var newArr = []; 
+  for(var i =0; i < musicians.length; i++) {
+    newArr.push(musicians[i] + " plays " + instruments[i]);
   }
-  return arr3;
+  return newArr;
 
 }
