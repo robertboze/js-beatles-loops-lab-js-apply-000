@@ -27,4 +27,14 @@ function johnLennonFacts(arr) {
   return result;
 }
 
-johnLennonFacts(facts); 
+johnLennonFacts(facts);
+
+function iLoveTheBeatles(number) {
+
+  let newArray = [];
+  do {
+    newArray.push(`I love the Beatles!`);
+  } while (number < 15); d);
+
+  return newArray; 
+}
