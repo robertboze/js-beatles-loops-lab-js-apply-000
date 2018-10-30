@@ -18,13 +18,13 @@ var facts = [
 ];
 
 function johnLennonFacts(arr) {
-  var result= []; 
-  var i = 0; 
+  var result= [];
+  var i = 0;
   while(i < arr.length) {
     result.push(arr[i] + '!!!')
-    i++; 
+    i++;
   }
-  return result; 
+  return result;
 }
 
 johnLennonFacts(facts); 
