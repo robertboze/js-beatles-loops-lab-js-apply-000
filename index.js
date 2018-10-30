@@ -1,5 +1,5 @@
 // add solution here
-var function theBeatlesPlay(arr1,arr2){
+function theBeatlesPlay(arr1,arr2){
 
 var arr3 = [];
 
