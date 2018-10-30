@@ -3,7 +3,7 @@ function theBeatlesPlay(arr1,arr2){
 
 var arr3 = [];
 
-  for(i= 0;i<=arr1.length();I++){
+  for(i= 0;i<=arr1.length();i++){
 
   var musician = arr[i];
 
